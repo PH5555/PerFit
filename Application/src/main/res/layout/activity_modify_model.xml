@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModifyModelActivity"
+    android:background="@drawable/gradation"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/x_white"
+                android:clickable="true"
+                android:id="@+id/button_cancel"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:id="@+id/button_name"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:fontFamily="@font/nanumsquare"
+                android:id="@+id/bigname"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="홍길동"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="40sp"/>
+
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/right_arrow" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/lineardesign">
+
+        <TextView
+            android:fontFamily="@font/nanumsquare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내 모델"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="#000000"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="36dp"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="17dp"
+            android:id="@+id/recyclerView">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:fontFamily="@font/nanumsquare"
+                android:layout_width="266dp"
+                android:layout_height="52.4dp"
+                android:background="@drawable/buttondesign2"
+                android:text="새 모델 생성"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btn_createModel"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2014 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.peftif.android.Perfect_fit.Camera.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|bottom"
+        android:background="#45FFFFFF"
+        android:id="@+id/img_perfectlevel"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="카메라의 수평이 0도가 되도록\n 세운 후 사진을 찍어주세요!"
+        android:textColor="#EC407A"
+
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:id="@+id/txt_guide"
+        />
+    <TextView
+        android:id="@+id/text_degree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="0"
+        android:layout_marginBottom="45dp"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp" />
+
+
+    <FrameLayout
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:background="#fafafa">
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/check"
+            android:layout_gravity="center"
+            />
+
+        <!--
+
+        <ImageButton
+            android:id="@+id/info"
+            android:contentDescription="@string/description_info"
+            style="@android:style/Widget.Material.Light.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:padding="20dp"
+            android:src="@drawable/ic_action_info" />
+        -->
+
+    </FrameLayout>
+
+</FrameLayout>
