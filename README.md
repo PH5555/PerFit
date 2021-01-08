@@ -1,4 +1,4 @@
-![2019-11-01 18;12;05](https://user-images.githubusercontent.com/47862506/104024280-3d7fd000-5206-11eb-87c1-b1c4434005c8.png)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/47862506/104016945-95183e80-51fa-11eb-9e7b-651ca291ea6d.gif)
 
 # Perfit - Perfect Fit
 
@@ -8,4 +8,3 @@
 
 ---
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/47862506/104016945-95183e80-51fa-11eb-9e7b-651ca291ea6d.gif)
