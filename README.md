@@ -1,4 +1,4 @@
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/47862506/104016945-95183e80-51fa-11eb-9e7b-651ca291ea6d.gif)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/47862506/104024613-bb43db80-5206-11eb-9dd3-8823902698e6.gif)
 
 # Perfit - Perfect Fit
 
