@@ -1,10 +1,21 @@
-# Perfit - Perfect Fit
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/47862506/134898367-0118afd4-bfea-4116-ac9d-629095a63472.png" alt="HAR Logo" width="80px" height="80px">
+</p>
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/47862506/104024613-bb43db80-5206-11eb-9dd3-8823902698e6.gif)
+<h1 align="center"> Perfit - Perfect Fit </h1>
 
-## 개요
+<h3 align="center"> Virtual Reality Fitting Application </h3>  
+
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/47862506/104024613-bb43db80-5206-11eb-9dd3-8823902698e6.gif" alt="Sample signal" width="60%" height="60%">
+</p>
+
+
+## 📖 About The Project
 
 온라인으로 옷을 구매할 때 사이즈가 맞지않아 환불하거나 교체를 해야하는 상황의 솔루션 앱.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 주요 기능
 
