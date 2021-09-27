@@ -4,7 +4,7 @@
 
 <h1 align="center"> Perfit - Perfect Fit </h1>
 
-<h3 align="center"> Virtual Reality Fitting Application </h3>  
+<h4 align="center"> Smarteen App Challenge 2019 생활/정보부문 우수상 </h4>
 
 <p align="center"> 
   <img src="https://user-images.githubusercontent.com/47862506/104024613-bb43db80-5206-11eb-9dd3-8823902698e6.gif" alt="Sample signal" width="60%" height="60%">
