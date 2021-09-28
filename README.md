@@ -29,17 +29,21 @@ Perfit은 이러한 문제를 해결하기 위해, 사용자가 옷을 입어보
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## 주요 기능
+## ⭐️ Functions
 
-1. 사용자의 신체 치수 인식 및 모델 생성 기능
+- 사용자의 신체 치수 인식 및 모델 생성 기능
 
-2. 캡처된 화면에서의 치수표 텍스트 인식 및 분석 기능
+- 캡처된 화면에서의 치수표 텍스트 인식 및 분석 기능
 
-3. 가상 옷 피팅 기능
+- 가상 옷 피팅 기능
 
-4. 피팅 헤드 기능
+- 피팅 헤드 기능
 
-## 역할
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## ✋ Role
 
 - 안드로이드 개발
-- 기획
+  - 신체 치수 인식 및 모델 생성 기능 구현
+  - 피팅 기능 구현
+  - 등등...
