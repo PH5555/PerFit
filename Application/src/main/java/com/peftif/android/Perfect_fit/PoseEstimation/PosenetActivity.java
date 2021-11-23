@@ -53,8 +53,8 @@ public class PosenetActivity extends AppCompatActivity {
 
             resize(files[0], file);
 
-            String clientId = "v06knzwc61";
-            String clientSecret = "2pFHWbm0xkEDtvWJWGVCrChhQvUOzJ7MY58vbDPZ";
+            String clientId = ""; // client id
+            String clientSecret = ""; // client secret
             String paramName = "image"; // 파라미터명은 image로 지정
             StringBuffer response = new StringBuffer();
 
